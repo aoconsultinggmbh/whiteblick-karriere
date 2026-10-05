@@ -1,0 +1,65 @@
+{
+  "stand": "2026-10-05",
+  "stellen": [
+    {
+      "kennung": "zfa-behandlungsassistenz-stuttgart",
+      "titel": "ZFA / Zahnmedizinische Fachangestellte / Zahnarzthelferin als Behandlungsassistenz (m/w/d)",
+      "status": "aktiv",
+      "ort": "Stuttgart",
+      "url": "https://whiteblick-karriere.de/stellen/zfa-behandlungsassistenz-stuttgart.html",
+      "veroeffentlicht": "2026-10-02",
+      "gueltig_bis": "2026-11-16",
+      "empfaenger": [
+        "jobs@whiteblick.de"
+      ]
+    },
+    {
+      "kennung": "zmp-zmf-dh-prophylaxe-stuttgart",
+      "titel": "ZMP / ZMF / DH / Zahnmedizinische Prophylaxeassistentin / Dentalhygienikerin (m/w/d)",
+      "status": "aktiv",
+      "ort": "Stuttgart",
+      "url": "https://whiteblick-karriere.de/stellen/zmp-zmf-dh-prophylaxe-stuttgart.html",
+      "veroeffentlicht": "2026-10-02",
+      "gueltig_bis": "2026-11-16",
+      "empfaenger": [
+        "jobs@whiteblick.de"
+      ]
+    },
+    {
+      "kennung": "zfa-zmp-zmf-prophylaxe-stuttgart",
+      "titel": "ZFA / ZMP / ZMF / Zahnmedizinische Fachangestellte für die Prophylaxe (m/w/d)",
+      "status": "aktiv",
+      "ort": "Stuttgart",
+      "url": "https://whiteblick-karriere.de/stellen/zfa-zmp-zmf-prophylaxe-stuttgart.html",
+      "veroeffentlicht": "2026-10-02",
+      "gueltig_bis": "2026-11-16",
+      "empfaenger": [
+        "jobs@whiteblick.de"
+      ]
+    },
+    {
+      "kennung": "ausbildung-zfa-stuttgart",
+      "titel": "Ausbildung als ZFA / Zahnmedizinische Fachangestellte (m/w/d) 2026",
+      "status": "initiativ",
+      "ort": "Stuttgart",
+      "url": "https://whiteblick-karriere.de/stellen/ausbildung-zfa-stuttgart.html",
+      "veroeffentlicht": "2026-10-02",
+      "gueltig_bis": "2026-11-16",
+      "empfaenger": [
+        "jobs@whiteblick.de"
+      ]
+    },
+    {
+      "kennung": "zmv-abrechnung-stuttgart",
+      "titel": "Zahnmedizinische Verwaltungsangestellte – ZMV / ZFA für die Abrechnung (m/w/d)",
+      "status": "initiativ",
+      "ort": "Stuttgart",
+      "url": "https://whiteblick-karriere.de/stellen/zmv-abrechnung-stuttgart.html",
+      "veroeffentlicht": "2026-10-02",
+      "gueltig_bis": "2026-11-16",
+      "empfaenger": [
+        "jobs@whiteblick.de"
+      ]
+    }
+  ]
+}

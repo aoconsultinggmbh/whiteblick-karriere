@@ -1,0 +1,104 @@
+{
+  "_hinweis": "Stammdaten des Kunden. Alles, was hier steht, landet auf der Seite und in den Google-Daten. Nichts erfinden – lieber leer lassen und nachfragen. Quellen: whiteblick-karriere.de (alte Karriereseite) und www.whiteblick.de (Hauptseite), ausgelesen am 2026-10-02. Offene Punkte: doku/entscheidungen.md.",
+  "kennung": "whiteblick",
+  "firma": "WHITEBLICK Dr. Feise + Kollegen",
+  "firma_lang": "WHITEBLICK Dr. Feise + Kollegen – Praxis für Zahnheilkunde und Oralchirurgie",
+  "branche": "Praxis für Zahnheilkunde und Oralchirurgie",
+  "kurzbeschreibung": "Zahnarztpraxis für Zahnheilkunde und Oralchirurgie im Herzen von Stuttgart – Panoramapraxis mit Blick über die Dächer der Stadt.",
+  "hauptseite": "https://www.whiteblick.de",
+  "domain": "whiteblick-karriere.de",
+  "vorschau_domain": "whiteblick-karriere.vorschau.ao-consult.de",
+  "vorschau": true,
+  "standorte": [
+    {
+      "kennung": "stuttgart",
+      "name": "WHITEBLICK Dr. Feise + Kollegen",
+      "strasse": "Silberburgstr. 122",
+      "plz": "70176",
+      "ort": "Stuttgart",
+      "region": "Baden-Württemberg",
+      "land": "DE",
+      "telefon": "+49 711 613461",
+      "email": "jobs@whiteblick.de",
+      "google_maps": ""
+    }
+  ],
+  "ansprechpartner": {
+    "name": "Dr. Tobias Feise",
+    "rolle": "Zahnarzt | Fachzahnarzt für Oralchirurgie",
+    "telefon": "+49 711 613461",
+    "email": "jobs@whiteblick.de",
+    "foto": "assets/img/ansprechpartner-dr-feise.jpg"
+  },
+  "bewerbungen": {
+    "standard_empfaenger": [
+      "jobs@whiteblick.de"
+    ],
+    "absender": "bewerbung@whiteblick-karriere.de",
+    "absender_name": "WHITEBLICK Karriere",
+    "antwortzeit": "Wir melden uns in kurzer Zeit bei Dir.",
+    "unterlagen_optional": true,
+    "max_dateien": 3,
+    "max_mb_je_datei": 10,
+    "loeschfrist_monate": 6
+  },
+  "ci": {
+    "farbe_primaer": "#44403d",
+    "farbe_akzent": "#bdb5aa",
+    "farbe_hintergrund": "#ffffff",
+    "farbe_text": "#44403d",
+    "schrift_ueberschrift": "Apex New Web",
+    "schrift_text": "Apex New Web",
+    "logo": "assets/img/logo.svg",
+    "logo_hell": "assets/img/logo-hell.svg",
+    "quelle": "CI komplett von der Hauptseite www.whiteblick.de (ausgelesen 02.10.2026, Vorgabe Awan: Karriereseite muss aussehen wie die Hauptseite): Apex New Web Light 300 / Book 400 / Medium 700 (woff aus dem Theme der Hauptseite – Lizenz des Kunden, für die Karriere-Domain bestätigen lassen), Text #44403d 17.6px/1.8 mit 0.4px Sperrung, Überschriften #605955 45px light 1.5px Sperrung, Beige #bdb5aa, Hell #eceae8, Grau #9fa1a7, Grün #899773. Knöpfe: beige, weiße Versalien, 4px Sperrung, eckig."
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/whiteblick.drfeise/",
+    "facebook": "https://www.facebook.com/WHITEBLICK/",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": "",
+    "kununu": "",
+    "jameda": "https://www.jameda.de/tobias-feise/zahnarzt-naturheilverfahren/stuttgart"
+  },
+  "seo": {
+    "berufe_kurz": "ZFA, ZMP, DH, ZMV & Azubi",
+    "regionen": [
+      "Stuttgart",
+      "Stuttgart-West",
+      "Stuttgart-Mitte"
+    ],
+    "og_bild": "assets/img/og-bild.jpg"
+  },
+  "google_for_jobs": {
+    "gueltigkeit_tage": 45,
+    "datum_monatlich_erneuern": true,
+    "indeed_feed": true
+  },
+  "statistik": {
+    "matomo_url": "https://statistik.ao-consult.de/",
+    "matomo_id": ""
+  },
+  "rechtliches": {
+    "inhaber": "Dr. Tobias Feise",
+    "rechtsform": "",
+    "umsatzsteuer_id": "",
+    "kammer": "Landeszahnärztekammer Baden-Württemberg, Albstadtweg 9, 70567 Stuttgart",
+    "kzv": "Kassenzahnärztliche Vereinigung Baden-Württemberg, Albstadtweg 9, 70567 Stuttgart",
+    "aufsichtsbehoerde": "",
+    "berufsbezeichnung": "Zahnarzt | Fachzahnarzt für Oralchirurgie (verliehen in der Bundesrepublik Deutschland)",
+    "fax": "0711 61 17 06",
+    "email_praxis": "praxis@whiteblick.de",
+    "hoster": "ALL-INKL.COM – Neue Medien Münnich, Hauptstraße 68, 02742 Friedersdorf"
+  },
+  "benefits_standard": [
+    "Attraktive Bezahlung",
+    "30 Tage Urlaub",
+    "Jobticket, Fahrtkostenzuschuss oder Tankgutschein",
+    "Kita Zuschuss",
+    "Mitarbeiterevents & After Work",
+    "Freitags kurzer Arbeitstag bis 14 Uhr",
+    "Klimatisierter Arbeitsbereich"
+  ]
+}

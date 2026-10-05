@@ -1,0 +1,9 @@
+/* generiert von scripts/bauen.py aus kunde.json → ci. Nicht von Hand ändern. */
+:root{
+  --primaer: #44403d;
+  --akzent: #bdb5aa;
+  --hintergrund: #ffffff;
+  --text: #44403d;
+  --schrift-ueberschrift: "Apex New Web", system-ui, sans-serif;
+  --schrift-text: "Apex New Web", system-ui, sans-serif;
+}

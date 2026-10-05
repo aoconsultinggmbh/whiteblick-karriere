@@ -1,0 +1,85 @@
+{
+  "_hinweis": "Texte 1:1 von https://whiteblick-karriere.de/job/ausbildung-als-zfa-zahnmedizinische-fachangestellte-m-w-d-2026/ (ausgelesen 2026-10-02). Änderungen nur hier, dann scripts/bauen.py.",
+  "kennung": "ausbildung-zfa-stuttgart",
+  "titel": "Ausbildung als ZFA / Zahnmedizinische Fachangestellte (m/w/d) 2026",
+  "titel_kurz": "Ausbildung ZFA",
+  "status": "initiativ",
+  "reihenfolge": 4,
+  "_status_werte": "aktiv = offene Stelle | initiativ = aktuell besetzt, Initiativbewerbungen willkommen | pausiert = nicht auf der Seite, nicht im Feed",
+  "standort": "stuttgart",
+  "beschaeftigungsart": [
+    "AUSBILDUNG"
+  ],
+  "_beschaeftigungsart_werte": "VOLLZEIT, TEILZEIT, AUSBILDUNG, MINIJOB, BEFRISTET, PRAKTIKUM, WERKSTUDENT",
+  "arbeitszeit": null,
+  "beginn": null,
+  "befristung": null,
+  "gehalt": {
+    "_hinweis": "In den Plugin-Daten der alten Seite stand bei ALLEN fünf Stellen (auch der Ausbildung) 3000–3500 EUR/Monat – sieht nach Vorgabewert aus, auf der Seite nicht sichtbar. Erst nach Freigabe des Kunden eintragen.",
+    "min": null,
+    "max": null,
+    "waehrung": "EUR",
+    "einheit": "MONTH"
+  },
+  "kurz": "Eine abwechslungsreiche Ausbildung mit Assistenz bei Behandlungen, Prophylaxe-Maßnahmen und Verwaltungsaufgaben – mit regelmäßigen internen Schulungen und Raum für eigene Ideen.",
+  "einleitung": "Unsere Panoramapraxis befindet sich im Herzen von Stuttgart. Unsere top-moderne Praxis ist mit neuester Technologie ausgestattet und schafft durch seine lichtdurchfluteten Räumlichkeiten eine Wohlfühlatmosphäre für Team und Patienten.\n\nWir arbeiten zukunftsorientiert und legen großen Wert auf Transparenz und fachliche Expertise. Ein hoher Qualitätsanspruch an uns selbst ist unser täglicher Maßstab, um unseren Patienten die bestmögliche Versorgung bieten zu können. Unsere Praxis hat nicht nur eine erstklassige zahnärztliche Versorgung zu bieten, sondern auch einen atemberaubenden WHITEBLICK über die Dächer der Stadt.",
+  "aufgaben": [
+    "Eine abwechslungsreiche Ausbildung in einem freundlichen und kollegialen Team",
+    "Ein breites Spektrum an Aufgaben im Bereich der Zahnmedizin, inklusive Assistenz bei Behandlungen, Durchführung von Prophylaxe Maßnahmen und Verwaltungsaufgaben",
+    "Regelmäßige interne Schulungen und Fortbildungen",
+    "Die Möglichkeit, eigene Ideen und Vorschläge einzubringen und aktiv an der Gestaltung der Praxis mitzuwirken"
+  ],
+  "profil": [
+    "Ein guter Schulabschluss",
+    "Interesse an medizinischen Themen und Freude am Umgang mit Menschen",
+    "Eine sorgfältige Arbeitsweise und eine ausgeprägte Serviceorientierung",
+    "Gute Deutschkenntnisse in Wort und Schrift"
+  ],
+  "wir_bieten": [
+    "Literatur Bonus (Beteiligung an Fachliteratur)",
+    "Regelmäßige Teambesprechungen",
+    "Mitarbeiterevents",
+    "After-Work (Kino, Bowling u. v. m.)",
+    "Jobticket",
+    "Fahrtkostenzuschüsse",
+    "Tankgutscheine",
+    "Anwerbe Bonus",
+    "Kita Zuschuss",
+    "Betriebliche Altersvorsorge",
+    "Wasser, Kaffee, Obst und Süßigkeiten",
+    "30 Tage Urlaub",
+    "Weiterbildungsmöglichkeiten",
+    "Freitags kurzer Arbeitstag bis 14 Uhr",
+    "Gute Verkehrsanbindung",
+    "Klimatisierter Arbeitsbereich",
+    "Kooperation mit Urban Sports Club"
+  ],
+  "qualifikation_erforderlich": "Ein guter Schulabschluss",
+  "erfahrung_monate": null,
+  "bewerbungen_an": [
+    "jobs@whiteblick.de"
+  ],
+  "ansprechpartner": null,
+  "formular_zusatzfragen": [
+    {
+      "name": "schulabschluss",
+      "frage": "Schulabschluss",
+      "typ": "auswahl",
+      "optionen": [
+        "Keiner",
+        "Hauptschule",
+        "Realschule",
+        "Fachabitur",
+        "Abitur",
+        "Anderer"
+      ],
+      "pflicht": false
+    }
+  ],
+  "bild": "assets/img/team-20.jpg",
+  "bild_alt": "Zwei junge Kolleginnen schauen lachend aus einer Behandlungszimmertür",
+  "alte_adresse": "/job/ausbildung-als-zfa-zahnmedizinische-fachangestellte-m-w-d-2026/",
+  "veroeffentlicht": "2026-10-02",
+  "gueltig_bis": "2026-11-16",
+  "_datum_hinweis": "veroeffentlicht und gueltig_bis setzt scripts/stellen-aktualisieren.py monatlich neu. Von Hand nur beim Anlegen eintragen."
+}

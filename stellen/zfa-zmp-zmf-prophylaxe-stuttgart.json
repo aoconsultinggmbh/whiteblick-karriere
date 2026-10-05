@@ -1,0 +1,113 @@
+{
+  "_hinweis": "Texte 1:1 von https://whiteblick-karriere.de/job/zfa-zmp-zmf-zahnmedizinische-fachangestellte-fuer-die-prophylaxe-m-w-d/ (ausgelesen 2026-10-02). Änderungen nur hier, dann scripts/bauen.py.",
+  "kennung": "zfa-zmp-zmf-prophylaxe-stuttgart",
+  "titel": "ZFA / ZMP / ZMF / Zahnmedizinische Fachangestellte für die Prophylaxe (m/w/d)",
+  "titel_kurz": "ZFA / ZMP / ZMF Prophylaxe",
+  "status": "aktiv",
+  "reihenfolge": 3,
+  "_status_werte": "aktiv = offene Stelle | initiativ = aktuell besetzt, Initiativbewerbungen willkommen | pausiert = nicht auf der Seite, nicht im Feed",
+  "standort": "stuttgart",
+  "beschaeftigungsart": [
+    "TEILZEIT"
+  ],
+  "_beschaeftigungsart_werte": "VOLLZEIT, TEILZEIT, AUSBILDUNG, MINIJOB, BEFRISTET, PRAKTIKUM, WERKSTUDENT",
+  "arbeitszeit": "20-30h die Woche",
+  "beginn": "ab sofort",
+  "befristung": null,
+  "gehalt": {
+    "_hinweis": "In den Plugin-Daten der alten Seite stand bei ALLEN fünf Stellen (auch der Ausbildung) 3000–3500 EUR/Monat – sieht nach Vorgabewert aus, auf der Seite nicht sichtbar. Erst nach Freigabe des Kunden eintragen.",
+    "min": null,
+    "max": null,
+    "waehrung": "EUR",
+    "einheit": "MONTH"
+  },
+  "kurz": "Du führst die Prophylaxe und Zahnreinigungen eigenständig durch, assistierst bei zahnärztlichen Eingriffen und bereitest Behandlungsräume und Instrumente vor und auf.",
+  "einleitung": "Unsere Panoramapraxis befindet sich im Herzen von Stuttgart. Unsere top-moderne Praxis ist mit neuester Technologie ausgestattet und schafft durch seine lichtdurchfluteten Räumlichkeiten eine Wohlfühlatmosphäre für Team und Patienten.\n\nWir arbeiten zukunftsorientiert und legen großen Wert auf Transparenz und fachliche Expertise. Ein hoher Qualitätsanspruch an uns selbst ist unser täglicher Maßstab, um unseren Patienten die bestmögliche Versorgung bieten zu können. Unsere Praxis hat nicht nur eine erstklassige zahnärztliche Versorgung zu bieten, sondern auch einen atemberaubenden WHITEBLICK über die Dächer der Stadt.",
+  "aufgaben": [
+    "Du führst die Prophylaxe/Zahnreinigungen eigenständig durch",
+    "Assistenz bei zahnärztlichen Eingriffen",
+    "Durchführung von Prophylaxe-Maßnahmen wie professionelle Zahnreinigung, Fluoridierung und Versiegelung von Zähnen",
+    "Vor- und Aufbereitung von Behandlungsräumen und Instrumenten"
+  ],
+  "profil": [
+    "Abgeschlossene Berufsausbildung als zahnmedizinische Fachangestellte, Zahnarzthelferin und eine Weiterbildung zur zahnmedizinischen Prophylaxeassistentin ZMP, Fachassistentin ZMF (m/w/d)",
+    "Röntgenschein",
+    "Grundkenntnisse mit Computern sind von Vorteil",
+    "Kenntnisse über Hygiene- und Sicherheitsstandards in einer Praxis"
+  ],
+  "wir_bieten": [
+    "Attraktive Bezahlung",
+    "Kooperation mit Unternehmen für Begünstigungen",
+    "Provision",
+    "Literatur Bonus (Beteiligung an Fachliteratur)",
+    "Regelmäßige Teambesprechungen",
+    "Mitarbeiterevents",
+    "After-Work (Kino, Bowling u. v. m.)",
+    "Jobticket",
+    "Fahrtkostenzuschüsse",
+    "Tankgutscheine",
+    "Anwerbe Bonus",
+    "Kita Zuschuss",
+    "Betriebliche Altersvorsorge",
+    "Wasser, Kaffee, Obst und Süßigkeiten",
+    "Einarbeitungsplan",
+    "30 Tage Urlaub",
+    "Karriere- & Weiterbildungsmöglichkeiten",
+    "Berufs- und Wiedereinsteiger sind willkommen",
+    "Teilzeit Möglichkeiten",
+    "4-Tage-Woche (Nach Absprache möglich)",
+    "Freitags kurzer Arbeitstag bis 14 Uhr",
+    "Gute Verkehrsanbindung",
+    "Klimatisierter Arbeitsbereich",
+    "Kooperation mit Urban Sports Club"
+  ],
+  "qualifikation_erforderlich": "Abgeschlossene Berufsausbildung als ZFA mit Weiterbildung zur ZMP oder ZMF; Röntgenschein",
+  "erfahrung_monate": null,
+  "bewerbungen_an": [
+    "jobs@whiteblick.de"
+  ],
+  "ansprechpartner": null,
+  "formular_zusatzfragen": [
+    {
+      "name": "fortbildungen",
+      "frage": "Welche Fortbildungen wurden bisher abgeschlossen?",
+      "typ": "text",
+      "pflicht": false
+    },
+    {
+      "name": "erfahrung",
+      "frage": "Wie viele Jahre Erfahrung hast du in der Branche?",
+      "typ": "auswahl",
+      "optionen": [
+        "Keine Erfahrung",
+        "1-3 Jahre",
+        "3-5 Jahre",
+        "+5 Jahre"
+      ],
+      "pflicht": false
+    },
+    {
+      "name": "ausbildung_zfa",
+      "frage": "Hast du eine abgeschlossene Ausbildung als ZFA?",
+      "typ": "janein",
+      "pflicht": false
+    },
+    {
+      "name": "verfuegbar",
+      "frage": "Wann bist du verfügbar?",
+      "typ": "auswahl",
+      "optionen": [
+        "Ab Sofort",
+        "In weniger als 3 Monaten",
+        "In mehr als 3 Monaten"
+      ],
+      "pflicht": false
+    }
+  ],
+  "bild": "assets/img/team-16.jpg",
+  "bild_alt": "Zwei Mitarbeiterinnen am Bildschirm im Behandlungszimmer",
+  "alte_adresse": "/job/zfa-zmp-zmf-zahnmedizinische-fachangestellte-fuer-die-prophylaxe-m-w-d/",
+  "veroeffentlicht": "2026-10-02",
+  "gueltig_bis": "2026-11-16",
+  "_datum_hinweis": "veroeffentlicht und gueltig_bis setzt scripts/stellen-aktualisieren.py monatlich neu. Von Hand nur beim Anlegen eintragen."
+}
