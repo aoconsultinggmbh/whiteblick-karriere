@@ -333,21 +333,26 @@ def baue(projekt: Path) -> int:
             "gehalt_fakt": gehalt_fakt,
             "aufgaben_html": liste_html(s["aufgaben"]), "profil_html": liste_html(s["profil"]),
             "wir_bieten_html": liste_html(s["wir_bieten"]),
-            "bild_block": (f'<figure class="wrap stelle-bild"><img src="../{esc(s["bild"])}" alt="{esc(s.get("bild_alt", ""))}" width="1600" height="686" loading="lazy"></figure>'
+            "bild_block": (f'<figure class="stelle-bild"><img src="../{esc(s["bild"])}" alt="{esc(s.get("bild_alt", ""))}" width="1200" height="675" loading="lazy"></figure>'
                            if s.get("bild") else ""),
             "zusatzfragen_html": zusatzfragen_html(s.get("formular_zusatzfragen")),
             "max_dateien": bew.get("max_dateien", 3), "max_mb": bew.get("max_mb_je_datei", 10),
             "antwortzeit": bew.get("antwortzeit", ""),
             "empfaenger_anzeige": empf[0] if empf else "",
             "mail_betreff": html.escape(f"Bewerbung: {s['titel_kurz']}").replace(" ", "%20"),
+            "branche": kunde.get("branche", ""),
+            "standort_region_html": f"<br>{esc(st['region'])}" if st.get("region") else "",
+            # Ansprechpartner als Karte in der rechten Spalte (Vorbild ao-karriere.de): rundes Foto, Name, Rolle, Mail-Knopf, Telefon
             "ansprechpartner_block": (
-                f'<section class="wrap ansprechpartner">'
-                + (f'<img src="../{esc(ap["foto"])}" alt="{esc(ap.get("name"))}" width="140" height="175" loading="lazy">' if ap.get("foto") else "")
-                + f'<div><h2>Fragen vorab?</h2>'
-                f'<p><strong>{esc(ap.get("name"))}</strong>{(" · " + esc(ap["rolle"])) if ap.get("rolle") else ""}<br>'
-                + (f'<a href="tel:{esc(ap["telefon"].replace(" ", ""))}">{esc(ap["telefon"])}</a><br>' if ap.get("telefon") else "")
-                + (f'<a href="mailto:{esc(ap["email"])}">{esc(ap["email"])}</a>' if ap.get("email") else "")
-                + "</p></div></section>") if ap.get("name") else "",
+                '<div class="karte karte-akzent ansprech-karte">'
+                '<p class="dachzeile">Dein Ansprechpartner</p>'
+                + (f'<img src="../{esc(ap["foto"])}" alt="{esc(ap.get("name"))}" width="120" height="120" loading="lazy">' if ap.get("foto") else "")
+                + f'<p class="ansprech-name"><strong>{esc(ap.get("name"))}</strong>'
+                + (f'<br><span>{esc(ap["rolle"])}</span>' if ap.get("rolle") else "") + "</p>"
+                + (f'<a class="knopf knopf-hell knopf-mittel" href="mailto:{esc(ap["email"])}?subject={html.escape("Bewerbung: " + s["titel_kurz"]).replace(" ", "%20")}">E-Mail schreiben</a>' if ap.get("email") else "")
+                + (f'<p class="ansprech-kontakt"><a href="tel:{esc(ap["telefon"].replace(" ", ""))}">{esc(ap["telefon"])}</a></p>' if ap.get("telefon") else "")
+                + (f'<p class="ansprech-kontakt"><a href="mailto:{esc(ap["email"])}">{esc(ap["email"])}</a></p>' if ap.get("email") else "")
+                + "</div>") if ap.get("name") else "",
             "veroeffentlicht_lesbar": lesbar(s["veroeffentlicht"]), "gueltig_bis_lesbar": lesbar(s["gueltig_bis"]),
             "jsonld": json.dumps(jobposting(kunde, s, st, url, basis), ensure_ascii=False, indent=2),
             "jsonld_breadcrumb": json.dumps({

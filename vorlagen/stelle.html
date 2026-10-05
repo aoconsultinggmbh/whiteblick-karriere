@@ -49,51 +49,47 @@
     <a href="../index.html">Karriere</a> › <a href="../index.html#stellen">Stellenangebote</a> › <span aria-current="page">{{titel_kurz}}</span>
   </nav>
 
-  <section class="wrap stelle-kopf">
-    <p class="status status-{{status}}">{{status_text}}</p>
-    <h1>{{titel}}</h1>
-    <p class="untertitel">{{kurz}}</p>
-    <dl class="fakten">
-      <div><dt>Standort</dt><dd>{{standort_ort}}</dd></div>
-      <div><dt>Arbeitszeit</dt><dd>{{beschaeftigungsart_text}}{{arbeitszeit_zusatz}}</dd></div>
-      <div><dt>Beginn</dt><dd>{{beginn}}</dd></div>
-      {{{gehalt_fakt}}}
-    </dl>
-    <p><a class="knopf" href="#bewerben">Jetzt bewerben</a> &nbsp; <span class="hinweis-klein">Kein Anschreiben nötig. {{antwortzeit}}</span></p>
-  </section>
+  <!-- Zweispaltig wie ao-karriere.de: links Bild, Marken, Titel, Text, Formular – rechts klebend Ansprechpartner und Fakten.
+       Auf dem Handy: Kopf, dann Ansprechpartner/Fakten, dann Text – der Kontakt bleibt oben, nicht am Seitenende. -->
+  <div class="wrap stelle-raster">
+    <div class="stelle-kopf">
+      {{{bild_block}}}
+      <p class="marken marken-zeile">{{{marken_html}}}<span class="marke marke-grau">{{standort_ort}}</span><span class="marke marke-grau">{{beschaeftigungsart_text}}</span></p>
+      <h1>{{titel}}</h1>
+      <p class="untertitel">{{kurz}}</p>
+      <p class="stelle-aktion"><a class="knopf" href="#bewerben">Jetzt bewerben</a> <span class="hinweis-klein">Kein Anschreiben nötig. {{antwortzeit}}</span></p>
+    </div>
 
-  {{{bild_block}}}
+    <aside class="stelle-seite" aria-label="Ansprechpartner und Eckdaten">
+      {{{ansprechpartner_block}}}
+      <dl class="karte fakten">
+        <div><dt>Arbeitszeit</dt><dd>{{beschaeftigungsart_text}}{{arbeitszeit_zusatz}}</dd></div>
+        <div><dt>Beginn</dt><dd>{{beginn}}</dd></div>
+        {{{gehalt_fakt}}}
+        <div><dt>Branche</dt><dd>{{branche}}</dd></div>
+        <div><dt>Arbeitsort</dt><dd><address>{{standort_name}}<br>{{standort_strasse}}<br>{{standort_plz}} {{standort_ort}}{{{standort_region_html}}}</address>
+          <a class="mehr mehr-klein" href="https://www.google.com/maps/dir/?api=1&amp;destination={{standort_strasse}}%2C%20{{standort_plz}}%20{{standort_ort}}" rel="noopener" target="_blank">Route planen</a></dd></div>
+      </dl>
+    </aside>
 
-  <section class="wrap schmal stelle-text">
-    <span class="dachzeile">Willkommen bei WHITEBLICK</span>
-    <h2 style="margin-top:0">Das macht uns aus!</h2>
-    {{{einleitung_html}}}
+    <div class="stelle-text">
+      <span class="dachzeile">Willkommen bei WHITEBLICK</span>
+      <h2 style="margin-top:0">Das macht uns aus!</h2>
+      {{{einleitung_html}}}
 
-    <h2>Dein Aufgabenbereich</h2>
-    <ul>{{{aufgaben_html}}}</ul>
+      <h2>Dein Aufgabenbereich</h2>
+      <ul>{{{aufgaben_html}}}</ul>
 
-    <h2>Dein Profil</h2>
-    <ul>{{{profil_html}}}</ul>
+      <h2>Dein Profil</h2>
+      <ul>{{{profil_html}}}</ul>
 
-    <h2>Freue Dich auf</h2>
-    <ul class="benefits-liste">{{{wir_bieten_html}}}</ul>
-  </section>
+      <h2>Freue Dich auf</h2>
+      <ul class="benefits-liste">{{{wir_bieten_html}}}</ul>
 
-  <section class="wrap schmal">
-    <h2 style="font-size:1.4rem">Dein Arbeitsort</h2>
-    <address>
-      <strong>{{standort_name}}</strong><br>
-      {{standort_strasse}}<br>
-      {{standort_plz}} {{standort_ort}}
-    </address>
-    <p><a href="https://www.google.com/maps/dir/?api=1&amp;destination={{standort_strasse}}%2C%20{{standort_plz}}%20{{standort_ort}}" rel="noopener" target="_blank">Route planen</a></p>
-  </section>
-
-  <div id="bewerben" class="abschnitt bewerben">
-    <section class="wrap schmal">
-      <span class="dachzeile">Bewerbung</span>
-      <h2>Bewirb Dich jetzt als {{titel_kurz}}</h2>
-      <p>Name, Kontakt und – wenn Du magst – Dein Lebenslauf reichen. Ein Anschreiben brauchst Du nicht. {{antwortzeit}}</p>
+      <div id="bewerben" class="bewerben">
+        <span class="dachzeile">Bewerbung</span>
+        <h2>Bewirb Dich jetzt als {{titel_kurz}}</h2>
+        <p>Name, Kontakt und – wenn Du magst – Dein Lebenslauf reichen. Ein Anschreiben brauchst Du nicht. {{antwortzeit}}</p>
 
       <form class="bewerbungsformular" action="../bewerbung-senden.php" method="post" enctype="multipart/form-data" novalidate>
         <input type="hidden" name="stelle" value="{{kennung}}">
@@ -140,10 +136,9 @@
         <button class="knopf" type="submit">Bewerbung absenden</button>
         <p class="hinweis-klein">Oder direkt per E-Mail an <a href="mailto:{{empfaenger_anzeige}}?subject={{mail_betreff}}">{{empfaenger_anzeige}}</a></p>
       </form>
-    </section>
+      </div>
+    </div>
   </div>
-
-  {{{ansprechpartner_block}}}
 </main>
 
 <footer class="fuss">
@@ -153,12 +148,12 @@
       <p>WHITEBLICK Dr. Feise + Kollegen<br>Praxis für Zahnheilkunde und Oralchirurgie</p>
     </div>
     <div>
-      <h3>Kontakt</h3>
+      <p class="fuss-titel">Kontakt</p>
       <p>{{standort_strasse}}<br>{{standort_plz}} {{standort_ort}}</p>
       <p><a href="tel:+49711613461">0711 61 34 61</a><br><a href="mailto:{{empfaenger_anzeige}}">{{empfaenger_anzeige}}</a></p>
     </div>
     <div>
-      <h3>Alle Stellen</h3>
+      <p class="fuss-titel">Alle Stellen</p>
       <p>Weitere offene Stellen und Initiativbewerbung.</p>
       <a class="knopf knopf-hell" href="../index.html#stellen">Zu den Stellenangeboten</a>
     </div>
